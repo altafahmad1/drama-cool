@@ -12,7 +12,10 @@ module.exports = {
             fontFamily: {
                 sans: ["Inter", ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                secondary: "rgba(60, 110, 113, 0.3);",
+            },
         },
     },
-    plugins: [],
+    plugins: [require("tailwind-scrollbar")],
 };

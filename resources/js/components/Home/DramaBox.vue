@@ -12,7 +12,7 @@
 
 <script>
 export default {
-    name: "Dramabox",
+    name: "DramaBox",
     props: {
         imageSrc: String,
         title: String,
